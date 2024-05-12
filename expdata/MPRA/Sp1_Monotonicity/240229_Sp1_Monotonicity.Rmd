@@ -1,0 +1,168 @@
+---
+title: "240229_Sp1_monotonicity"
+author: "Robert Frömel"
+date: "29 2 2024"
+output: html_document
+---
+
+```{r LoadData, warning=FALSE, message=FALSE, results='hide'}
+suppressPackageStartupMessages({
+  require(ggplot2)
+  require(scam)
+  require(splines)
+  require(plyr)
+  require(dplyr)
+  require(tibble)
+  require(tidyr)
+})
+
+#Needed functions
+'%nin%' = Negate('%in%')
+
+source("~/cluster_mount2/project/SCG4SYN/read_in_data.R")
+read_in_data("~/cluster_mount2/project/SCG4SYN/")
+```
+
+```{r eval=FALSE, include=FALSE}
+#cellstate.colors.new <- c("#3b4ba7","#94B1F9","#7DD06F","#ffd37d","#ed7950","#6e4b9e","#a9a9a9")
+#names(cellstate.colors.new) <- c("State_1M", "State_2D", "State_3E", "State_4M", "State_5M", "State_6N", "State_7M")
+#
+#ggplot(DATA$HSPC.libA.BS1$narrow, aes(x = clusterID, y= mean.norm.adj, fill = clusterID)) + 
+#  geom_boxplot() + 
+#  theme_bw() +
+#  theme(panel.grid = element_blank()) + 
+#  scale_fill_manual(values = cellstate.colors.new, labels = c("1","2","3","4", "5", "6", "7"))
+```
+
+# Full model
+
+```{r}
+# Run Scam on Sp1
+Sp1_df <- DATA$K562.libA.initial$narrow %>% filter(TF %in% "Sp1" & pass) %>% filter(sum.biophys.affinity %nin% NA)
+
+Full_model <- list(mpi   = scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "mpi" ), data = Sp1_df), 
+                   mpd = scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "mpd" ), data = Sp1_df), 
+                   cv = scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "cv" ), data = Sp1_df),
+                   cx = scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "cx" ), data = Sp1_df),
+                   micv = scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "micv" ), data = Sp1_df),
+                   micx = scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "micx" ), data = Sp1_df),
+                   mdcv = scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "mdcv" ), data = Sp1_df),
+                   mdcx = scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "mdcx" ), data = Sp1_df),
+                   ps = scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "ps" ), data = Sp1_df))
+
+Full_model_aic <- data.frame(spline = names(Full_model), AIC = sapply(Full_model, function(x) {x $aic}, USE.NAMES = F) ) 
+```
+
+```{r}
+ggplot(Full_model_aic, aes(x=reorder(spline, -AIC), y= AIC)) + 
+  geom_point() +
+  theme_bw() + theme(panel.grid = element_blank())
+```
+
+```{r}
+plot(Full_model$cv,shade=TRUE)
+plot(Full_model$ps,shade=TRUE)
+```
+
+```{r}
+x1 <- sort(Sp1_df$sum.biophys.affinity,index=TRUE)
+plot(Sp1_df$sum.biophys.affinity,Sp1_df$mean.norm.adj,xlab="sum.biophys.affinity",ylab="mean.norm.adj")
+lines(x1$x,Full_model$mpi$fitted.values[x1$ix],col=1)  ## monotone fit 
+lines(x1$x,Full_model$cv$fitted.values[x1$ix],col=2)  ## concarve fit 
+lines(x1$x,Full_model$ps$fitted.values[x1$ix],col=3) ## unconstrained fit 
+```
+
+# By affinities
+
+```{r, warning=FALSE, message=FALSE, results='hide'}
+# by affinities
+Affinity_model <-  lapply(unique(Sp1_df$affinitynum), function(x) {
+  temp_df <- Sp1_df %>% filter(affinitynum %in% x);
+  mpi <- scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "mpi" ), data = temp_df);
+  mpd <- scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "mpd" ), data = temp_df);
+  cv <- scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "cv" ), data = temp_df);
+  cx <- scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "cx" ), data = temp_df);
+  micv <- scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "micv" ), data = temp_df);
+  micx <- scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "micx" ), data = temp_df);
+  mdcv <- scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "mdcv" ), data = temp_df);
+  mdcx <- scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "mdcx" ), data = temp_df);
+  ps <- scam(mean.norm.adj ~ s(sum.biophys.affinity, bs = "ps" ), data = temp_df);
+  out <- list(mpi = mpi, mpd = mpd, cv = cv, cx = cx, micv = micv, micx= micx, mdcv = mdcv, mdcx = mdcx, ps = ps);
+  return(out)
+})
+
+names(Affinity_model) <- unique(Sp1_df$affinitynum)
+
+Affinity_model_aic <- as.data.frame(sapply(Affinity_model, function(x) {sapply(x, function(y) {y$aic})}, USE.NAMES = F)) %>% 
+  rownames_to_column("spline") %>% 
+  pivot_longer(!spline, names_to = "Affinity", values_to = "Value")
+```
+
+```{r}
+ggplot(Affinity_model_aic, aes(x=Affinity, y= Value, color = spline)) + 
+  geom_jitter() +
+  theme_bw() + 
+  theme(panel.grid = element_blank())
+
+ggplot(Affinity_model_aic , aes(x=spline, y= Value, color = spline)) + 
+  facet_wrap(~Affinity, scales = "free") +
+  geom_jitter(size = 2) +
+  theme_bw() + 
+  theme(panel.grid = element_blank(), axis.text.x = element_text(angle = 90))
+
+ggplot(Affinity_model_aic %>% filter(spline %in% c("mpd", "mpi", "cv")), aes(x=spline, y= Value, color = spline)) + 
+  facet_wrap(~Affinity, scales = "free") +
+  geom_jitter(size = 3) +
+  theme_bw() + 
+  theme(panel.grid = element_blank(), axis.text.x = element_text(angle = 90))
+```
+
+# By repeats
+
+```{r, warning=FALSE, message=FALSE, results='hide'}
+# by affinities
+Repeats_model <-  lapply(unique(Sp1_df$affinitynum), function(x) {
+  temp_df <- Sp1_df %>% filter(affinitynum %in% x);
+  mpi <- scam(mean.norm.adj ~ s(nrepeats, bs = "mpi" ), data = temp_df);
+  mpd <- scam(mean.norm.adj ~ s(nrepeats, bs = "mpd" ), data = temp_df);
+  cv <- scam(mean.norm.adj ~ s(nrepeats, bs = "cv" ), data = temp_df);
+  cx <- scam(mean.norm.adj ~ s(nrepeats, bs = "cx" ), data = temp_df);
+  micv <- scam(mean.norm.adj ~ s(nrepeats, bs = "micv" ), data = temp_df);
+  micx <- scam(mean.norm.adj ~ s(nrepeats, bs = "micx" ), data = temp_df);
+  mdcv <- scam(mean.norm.adj ~ s(nrepeats, bs = "mdcv" ), data = temp_df);
+  mdcx <- scam(mean.norm.adj ~ s(nrepeats, bs = "mdcx" ), data = temp_df);
+  ps <- scam(mean.norm.adj ~ s(nrepeats, bs = "ps" ), data = temp_df);
+  out <- list(mpi = mpi, mpd = mpd, cv = cv, cx = cx, micv = micv, micx= micx, mdcv = mdcv, mdcx = mdcx, ps = ps);
+  return(out)
+})
+
+names(Repeats_model) <- unique(Sp1_df$affinitynum)
+
+Repeats_model_aic <- as.data.frame(sapply(Repeats_model, function(x) {sapply(x, function(y) {y$aic})}, USE.NAMES = F)) %>% 
+  rownames_to_column("spline") %>% 
+  pivot_longer(!spline, names_to = "Affinity", values_to = "Value")
+```
+
+```{r}
+ggplot(Repeats_model_aic, aes(x=Affinity, y= Value, color = spline)) + 
+  geom_jitter() +
+  theme_bw() + 
+  theme(panel.grid = element_blank())
+
+ggplot(Repeats_model_aic , aes(x=spline, y= Value, color = spline)) + 
+  facet_wrap(~Affinity, scales = "free") +
+  geom_jitter(size = 2) +
+  theme_bw() + 
+  theme(panel.grid = element_blank(), axis.text.x = element_text(angle = 90))
+
+ggplot(Repeats_model_aic %>% filter(spline %in% c("mpd", "mpi", "cv")), aes(x=spline, y= Value, color = spline)) + 
+  facet_wrap(~Affinity, scales = "free") +
+  geom_jitter(size = 3) +
+  theme_bw() + 
+  theme(panel.grid = element_blank(), axis.text.x = element_text(angle = 90))
+```
+
+```{r}
+sessionInfo()
+```
+
