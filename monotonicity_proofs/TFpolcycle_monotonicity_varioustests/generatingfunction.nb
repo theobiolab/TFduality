@@ -1,0 +1,356 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     12496,        346]
+NotebookOptionsPosition[     11397,        319]
+NotebookOutlinePosition[     11775,        335]
+CellTagsIndexPosition[     11732,        332]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+GeneratingFunction((n((n-1) choose (n-k-1))((n-k-1) choose \
+r))/(r+k+1))*GeneratingFunction((n((n-1) choose (n-k-g))((n-k-g) choose \
+r))/(r+k+g))-GeneratingFunction((n((n-1) choose (n-k))((n-k) choose \
+r))/(r+k))*GeneratingFunction((n((n-1) choose (n-k-g-1))((n-k-g-1) choose \
+r))/(r+k+g+1))\
+\>", "WolframAlphaLong",
+ CellChangeTimes->{{3.795114580751985*^9, 3.7951146301139107`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"45a2fa4c-e3cf-48c5-8ba7-a6f603034642"],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = 
+   "GeneratingFunction((n((n-1) choose (n-k-1))((n-k-1) choose \
+r))/(r+k+1))*GeneratingFunction((n((n-1) choose (n-k-g))((n-k-g) choose \
+r))/(r+k+g))-GeneratingFunction((n((n-1) choose (n-k))((n-k) choose \
+r))/(r+k))*GeneratingFunction((n((n-1) choose (n-k-g-1))((n-k-g-1) choose \
+r))/(r+k+g+1))", Typeset`opts$$ = {
+   AppearanceElements -> {
+     "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+      "Sources"}, Asynchronous -> All, 
+    TimeConstraint -> {20, Automatic, Automatic, Automatic}, 
+    Method -> {
+     "Formats" -> {"cell", "minput", "msound", "dataformats"}, "Server" -> 
+      "http://api.wolframalpha.com/v1/"}}, Typeset`elements$$ = {
+   "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+    "Sources"}, Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {
+    XMLElement["didyoumeans", {"count" -> "1"}, {"\n  ", 
+      XMLElement[
+      "didyoumean", {"score" -> "0.24", "level" -> "low"}, {"choose"}], 
+      "\n "}]}, Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True], 
+   Typeset`queryinfo$$ = {
+   "success" -> "false", "error" -> "false", "numpods" -> "0", "datatypes" -> 
+    "", "timedout" -> "", "timedoutpods" -> "", "timing" -> 
+    "3.3810000000000002", "parsetiming" -> "0.", "parsetimedout" -> "false", 
+    "recalculate" -> "", "id" -> "", "parseidserver" -> "27", "host" -> 
+    "https://www4d.wolframalpha.com", "server" -> "27", "related" -> "", 
+    "version" -> "2.6"}, Typeset`sessioninfo$$ = {
+   "TimeZone" -> -4., 
+    "Date" -> {2020, 4, 5, 18, 31, 43.681961`8.392877104206146}, "Line" -> 2, 
+    "SessionID" -> 26943346346064760036}, Typeset`showpods$$ = {}, 
+   Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
+   Typeset`newq$$ = 
+   "GeneratingFunction((n((n-1) choose (n-k-1))((n-k-1) choose \
+r))/(r+k+1))*GeneratingFunction((n((n-1) choose (n-k-g))((n-k-g) choose \
+r))/(r+k+g))-GeneratingFunction((n((n-1) choose (n-k))((n-k) choose \
+r))/(r+k))*GeneratingFunction((n((n-1) choose (n-k-g-1))((n-k-g-1) choose \
+r))/(r+k+g+1))"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {}, {}, Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, 
+        Typeset`q$$, Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+        Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+        Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{741., {41., 47.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     And[
+      Not[Typeset`initdone$$ === True], 
+      Not[Typeset`initdone$$ === FrontEnd`SuppressEvaluationHash[True]]], 
+     Null; WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{}], Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True]],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Print", "WolframAlphaFullOutput",
+ CellChangeTimes->{
+  3.7951147036902523`*^9},ExpressionUUID->"064e8275-8501-460c-b1f3-\
+5743a80919df"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",ExpressionUUID->"6fc318da-1d8d-4fc2-a9a0-1b894c31baa5"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"F", "[", "k_", "]"}], ":=", 
+   RowBox[{"GeneratingFunction", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"m", " ", 
+        RowBox[{"Binomial", "[", 
+         RowBox[{
+          RowBox[{"m", "-", "1"}], ",", 
+          RowBox[{"m", "-", "k"}]}], "]"}], " ", 
+        RowBox[{"Binomial", "[", 
+         RowBox[{
+          RowBox[{"m", "-", "k"}], ",", "n"}], "]"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"n", "+", "k"}], ")"}]}], ",", "n", ",", "z"}], "]"}]}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.795114774960589*^9, 3.795114800566745*^9}, {
+  3.795114831568776*^9, 3.7951148553129463`*^9}, {3.795115278777323*^9, 
+  3.795115282227655*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"0320e3b8-f0d4-4489-b1c4-57e902c575ec"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Evaluate", "[", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"F", "[", 
+        RowBox[{"k", "+", "1"}], "]"}], "*", 
+       RowBox[{"F", "[", 
+        RowBox[{"k", "+", "g"}], "]"}]}], "-", 
+      RowBox[{
+       RowBox[{"F", "[", "k", "]"}], "*", 
+       RowBox[{"F", "[", 
+        RowBox[{"k", "+", "g", "+", "1"}], "]"}]}]}], ")"}], ">", "0"}], 
+   "]"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.795114860768815*^9, 3.795114973306226*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"f989aa5b-b1d7-4098-96c9-33066a753033"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["m", "2"], " ", 
+        RowBox[{"Binomial", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "1"}], "+", "m"}], ",", 
+          RowBox[{
+           RowBox[{"-", "k"}], "+", "m"}]}], "]"}], " ", 
+        RowBox[{"Binomial", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "1"}], "+", "m"}], ",", 
+          RowBox[{
+           RowBox[{"-", "1"}], "-", "g", "-", "k", "+", "m"}]}], "]"}], " ", 
+        RowBox[{"Binomial", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "k"}], "+", "m"}], ",", "r"}], "]"}], " ", 
+        RowBox[{"Binomial", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "1"}], "-", "g", "-", "k", "+", "m"}], ",", "r"}], 
+         "]"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"k", "+", "r"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", "g", "+", "k", "+", "r"}], ")"}], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"1", "-", "z"}], ")"}], "2"]}], ")"}]}], ")"}]}], "+", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      SuperscriptBox["m", "2"], " ", 
+      RowBox[{"Binomial", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "1"}], "+", "m"}], ",", 
+        RowBox[{
+         RowBox[{"-", "1"}], "-", "k", "+", "m"}]}], "]"}], " ", 
+      RowBox[{"Binomial", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "1"}], "+", "m"}], ",", 
+        RowBox[{
+         RowBox[{"-", "g"}], "-", "k", "+", "m"}]}], "]"}], " ", 
+      RowBox[{"Binomial", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "1"}], "-", "k", "+", "m"}], ",", "r"}], "]"}], " ", 
+      RowBox[{"Binomial", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "g"}], "-", "k", "+", "m"}], ",", "r"}], "]"}]}], ")"}],
+     "/", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "+", "k", "+", "r"}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"g", "+", "k", "+", "r"}], ")"}], " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"1", "-", "z"}], ")"}], "2"]}], ")"}]}]}], ">", 
+  "0"}]], "Output",
+ CellChangeTimes->{{3.79511486331647*^9, 3.7951148731250973`*^9}, {
+   3.7951149334011087`*^9, 3.795114944007908*^9}, 3.795114974911936*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"3fc777b1-d5bf-4fc9-a9df-d12676613b43"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Evaluate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"F", "[", 
+        RowBox[{"k", "+", "1"}], "]"}], "*", 
+       RowBox[{"F", "[", 
+        RowBox[{"k", "+", "g"}], "]"}]}], "-", 
+      RowBox[{
+       RowBox[{"F", "[", "k", "]"}], "*", 
+       RowBox[{"F", "[", 
+        RowBox[{"k", "+", "g", "+", "1"}], "]"}]}]}], ")"}], ">", "0"}], 
+   ","}]}]], "Input",
+ CellChangeTimes->{{3.7951150143865423`*^9, 3.7951150156219254`*^9}, {
+  3.7951153877773447`*^9, 
+  3.795115453635455*^9}},ExpressionUUID->"2de61314-2c15-4c10-8338-\
+147c31ed0b32"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "+", "k"}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"g", "+", "k"}], ")"}]}]], 
+    RowBox[{
+     SuperscriptBox["m", "2"], " ", 
+     RowBox[{"Binomial", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "1"}], "+", "m"}], ",", 
+       RowBox[{
+        RowBox[{"-", "1"}], "-", "k", "+", "m"}]}], "]"}], " ", 
+     RowBox[{"Binomial", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "1"}], "+", "m"}], ",", 
+       RowBox[{
+        RowBox[{"-", "g"}], "-", "k", "+", "m"}]}], "]"}], " ", 
+     RowBox[{"Hypergeometric2F1", "[", 
+      RowBox[{
+       RowBox[{"1", "+", "k"}], ",", 
+       RowBox[{"1", "+", "k", "-", "m"}], ",", 
+       RowBox[{"2", "+", "k"}], ",", 
+       RowBox[{"-", "z"}]}], "]"}], " ", 
+     RowBox[{"Hypergeometric2F1", "[", 
+      RowBox[{
+       RowBox[{"g", "+", "k"}], ",", 
+       RowBox[{"g", "+", "k", "-", "m"}], ",", 
+       RowBox[{"1", "+", "g", "+", "k"}], ",", 
+       RowBox[{"-", "z"}]}], "]"}]}]}], "-", 
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"k", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", "g", "+", "k"}], ")"}]}]], 
+    RowBox[{
+     SuperscriptBox["m", "2"], " ", 
+     RowBox[{"Binomial", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "1"}], "+", "m"}], ",", 
+       RowBox[{
+        RowBox[{"-", "k"}], "+", "m"}]}], "]"}], " ", 
+     RowBox[{"Binomial", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "1"}], "+", "m"}], ",", 
+       RowBox[{
+        RowBox[{"-", "1"}], "-", "g", "-", "k", "+", "m"}]}], "]"}], " ", 
+     RowBox[{"Hypergeometric2F1", "[", 
+      RowBox[{"k", ",", 
+       RowBox[{"k", "-", "m"}], ",", 
+       RowBox[{"1", "+", "k"}], ",", 
+       RowBox[{"-", "z"}]}], "]"}], " ", 
+     RowBox[{"Hypergeometric2F1", "[", 
+      RowBox[{
+       RowBox[{"1", "+", "g", "+", "k"}], ",", 
+       RowBox[{"1", "+", "g", "+", "k", "-", "m"}], ",", 
+       RowBox[{"2", "+", "g", "+", "k"}], ",", 
+       RowBox[{"-", "z"}]}], "]"}]}]}]}], ">", "0"}]], "Output",
+ CellChangeTimes->{
+  3.795115015957325*^9, 3.795115288218148*^9, {3.795115405039022*^9, 
+   3.795115440234591*^9}},
+ CellLabel->"Out[15]=",ExpressionUUID->"ee71203b-4f2d-417a-8d53-9ee011f69bf2"]
+}, Open  ]]
+},
+WindowSize->{808, 680},
+WindowMargins->{{213, Automatic}, {Automatic, 17}},
+TaggingRules->{"TryRealOnly" -> False},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 477, 8, 56, "WolframAlphaLong",ExpressionUUID->"45a2fa4c-e3cf-48c5-8ba7-a6f603034642"],
+Cell[1060, 32, 3300, 63, 98, "Print",ExpressionUUID->"064e8275-8501-460c-b1f3-5743a80919df"]
+}, Open  ]],
+Cell[4375, 98, 81, 0, 30, "Input",ExpressionUUID->"6fc318da-1d8d-4fc2-a9a0-1b894c31baa5"],
+Cell[4459, 100, 826, 22, 52, "Input",ExpressionUUID->"0320e3b8-f0d4-4489-b1c4-57e902c575ec"],
+Cell[CellGroupData[{
+Cell[5310, 126, 603, 17, 52, "Input",ExpressionUUID->"f989aa5b-b1d7-4098-96c9-33066a753033"],
+Cell[5916, 145, 2502, 76, 106, "Output",ExpressionUUID->"3fc777b1-d5bf-4fc9-a9df-d12676613b43"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8455, 226, 617, 19, 30, "Input",ExpressionUUID->"2de61314-2c15-4c10-8338-147c31ed0b32"],
+Cell[9075, 247, 2306, 69, 137, "Output",ExpressionUUID->"ee71203b-4f2d-417a-8d53-9ee011f69bf2"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

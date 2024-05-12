@@ -1,0 +1,2 @@
+#aborting after 600
+1688;-3*alpha*beta^3*gamma^2*omega^2 + 2*alpha*beta^3*gamma^2*omega - alpha*beta^2*gamma^2*omega^2 + alpha*beta^2*gamma^2*omega + alpha*beta^2*gamma*omega - beta^3*gamma^2*omega^2 + 2*beta^3*gamma^2*omega - beta^2*gamma^2*omega^2;True

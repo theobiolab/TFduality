@@ -1,0 +1,213 @@
+0;c1*epsilon1 - c1*epsilon3 - c1 + c2*epsilon3
+0;c1*epsilon2 - c1*epsilon3 - c1 + c2*epsilon3
+0;-c1 + c2*epsilon3
+0;2*c1*epsilon1*epsilon3 - c1*epsilon2*epsilon3 - c1*epsilon3^2 - 2*c1*epsilon3 + c2*epsilon2*epsilon3 + c2*epsilon3^2
+0;c1*epsilon2*epsilon3 - c1*epsilon3^2 - 2*c1*epsilon3 + c2*epsilon2*epsilon3 + c2*epsilon3^2
+0;c1*epsilon1^2 + c1*epsilon1*epsilon2 - c1*epsilon1*epsilon3 - 2*c1*epsilon1 + c1*epsilon2^2 - 2*c1*epsilon2*epsilon3 - 2*c1*epsilon2 - 2*c1*epsilon3 + 2*c2*epsilon1*epsilon3 + 3*c2*epsilon2*epsilon3 + c2*epsilon3^2
+0;-c1*epsilon1r + c1*epsilon1 + c1*epsilon2 - c1*epsilon3 - c1 + c2*epsilon3
+0;c1*epsilon1*epsilon3^2 - c1*epsilon2*epsilon3^2 - c1*epsilon3^2 + c2*epsilon2*epsilon3^2
+0;c1*epsilon1*epsilon2^2 - c1*epsilon2^2*epsilon3 - c1*epsilon2^2 + c2*epsilon2^2*epsilon3
+0;-c1*epsilon3^2 + c2*epsilon2*epsilon3^2
+0;c1*epsilon1^2*epsilon2 - c1*epsilon1^2*epsilon3 - c1*epsilon1^2 + c2*epsilon1^2*epsilon3
+0;-c1*epsilon2^2 + c2*epsilon2^2*epsilon3
+0;-c1*epsilon1^2 + c2*epsilon1^2*epsilon3
+0;2*c1*epsilon1^2*epsilon3 - c1*epsilon1*epsilon3^2 - 4*c1*epsilon1*epsilon3 + c1*epsilon2^2*epsilon3 - 2*c1*epsilon2*epsilon3^2 - 4*c1*epsilon2*epsilon3 - c1*epsilon3^2 + 3*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon3^2 + c2*epsilon2^2*epsilon3 + 3*c2*epsilon2*epsilon3^2
+0;2*c1*epsilon1^2*epsilon2 + c1*epsilon1*epsilon2^2 - 2*c1*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1*epsilon2 - c1*epsilon2^2*epsilon3 - c1*epsilon2^2 - 4*c1*epsilon2*epsilon3 + 5*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon2^2*epsilon3 + 2*c2*epsilon2*epsilon3^2
+0;c1*epsilon1^2*epsilon2 - c1*epsilon1^2 + 2*c1*epsilon1*epsilon2^2 - 3*c1*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1*epsilon2 - 4*c1*epsilon1*epsilon3 + c2*epsilon1^2*epsilon3 + 6*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon3^2
+0;2*c1*epsilon1*epsilon2 - 2*c1*epsilon2*epsilon3 - 2*c1*epsilon2 + 2*c2*epsilon2*epsilon3
+0;2*c1*epsilon1*epsilon2 - 2*c1*epsilon1*epsilon3 - 2*c1*epsilon1 + 2*c2*epsilon1*epsilon3
+0;-2*c1*epsilon1 + 2*c2*epsilon1*epsilon3
+0;-2*c1*epsilon2 + 2*c2*epsilon2*epsilon3
+0;-2*c1*epsilon1r*epsilon3 + 2*c1*epsilon1*epsilon3 + c1*epsilon2*epsilon3 - c1*epsilon3^2 - 2*c1*epsilon3 + c2*epsilon2*epsilon3 + c2*epsilon3^2
+0;c1*epsilon1r*epsilon1 - c1*epsilon1r*epsilon2 - 2*c1*epsilon1r*epsilon3 - 2*c1*epsilon1r + 3*c1*epsilon1*epsilon2 + c1*epsilon2^2 - 2*c1*epsilon2*epsilon3 - 2*c1*epsilon2 + 2*c2*epsilon1r*epsilon3 + 2*c2*epsilon2*epsilon3
+0;3*c1*epsilon1*epsilon2*epsilon3 - c1*epsilon2^2*epsilon3 - 2*c1*epsilon2*epsilon3^2 - 4*c1*epsilon2*epsilon3 + c2*epsilon1*epsilon2*epsilon3 + c2*epsilon2^2*epsilon3 + 2*c2*epsilon2*epsilon3^2
+0;c1*epsilon1*epsilon2*epsilon3^2 - c1*epsilon2^2*epsilon3^2 - 2*c1*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3^2 + c2*epsilon2^2*epsilon3^2
+0;c1*epsilon1*epsilon2^2*epsilon3 - c1*epsilon2^2*epsilon3^2 - 2*c1*epsilon2^2*epsilon3 + c2*epsilon1*epsilon2^2*epsilon3 + c2*epsilon2^2*epsilon3^2
+0;-c1*epsilon1r*epsilon1 + c1*epsilon1r*epsilon2 - 2*c1*epsilon1r*epsilon3 - 2*c1*epsilon1r + c1*epsilon1^2 + 3*c1*epsilon1*epsilon2 - 2*c1*epsilon1*epsilon3 - 2*c1*epsilon1 + 2*c2*epsilon1r*epsilon3 + 2*c2*epsilon1*epsilon3
+0;c1*epsilon1^2*epsilon2*epsilon3 - c1*epsilon1^2*epsilon3^2 - 2*c1*epsilon1^2*epsilon3 + c2*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1^2*epsilon3^2
+0;c1*epsilon1^2*epsilon3^2 - c1*epsilon1*epsilon2*epsilon3^2 - 2*c1*epsilon1*epsilon3^2 - 2*c1*epsilon2*epsilon3^2 + 3*c2*epsilon1*epsilon2*epsilon3^2 + c2*epsilon2^2*epsilon3^2
+0;c1*epsilon1^2*epsilon2^2 - c1*epsilon1*epsilon2^2*epsilon3 - 2*c1*epsilon1*epsilon2^2 - 2*c1*epsilon2^2*epsilon3 + 3*c2*epsilon1*epsilon2^2*epsilon3 + c2*epsilon2^2*epsilon3^2
+0;c1*epsilon1^2*epsilon2^2 - 2*c1*epsilon1^2*epsilon2 - c1*epsilon1*epsilon2^2*epsilon3 - 2*c1*epsilon1*epsilon2^2 - 6*c1*epsilon1*epsilon2*epsilon3 + 3*c2*epsilon1^2*epsilon2*epsilon3 + 4*c2*epsilon1*epsilon2^2*epsilon3 + 3*c2*epsilon1*epsilon2*epsilon3^2
+0;c1*epsilon1^2*epsilon2^2 - c1*epsilon1^2*epsilon2*epsilon3 - 2*c1*epsilon1^2*epsilon2 - 2*c1*epsilon1^2*epsilon3 + 3*c2*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1^2*epsilon3^2
+0;c1*epsilon1^2*epsilon2*epsilon3 - 2*c1*epsilon1^2*epsilon3 + c1*epsilon1*epsilon2^2*epsilon3 - 2*c1*epsilon1*epsilon2*epsilon3^2 - 6*c1*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1^2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3 + 5*c2*epsilon1*epsilon2*epsilon3^2
+0;-c1*epsilon1r*epsilon3^2 + c1*epsilon1*epsilon3^2 - c1*epsilon3^2 + c2*epsilon2*epsilon3^2
+0;c1*epsilon1r*epsilon1*epsilon2 - 2*c1*epsilon1r*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon2 + 2*c1*epsilon1*epsilon2^2 - c1*epsilon2^2*epsilon3 - c1*epsilon2^2 + 2*c2*epsilon1r*epsilon2*epsilon3 + c2*epsilon2^2*epsilon3
+0;-c1*epsilon1r^2 + c1*epsilon1r*epsilon1 + c1*epsilon1r*epsilon2 - 2*c1*epsilon1r*epsilon3 - 2*c1*epsilon1r + c1*epsilon1*epsilon2 + 2*c2*epsilon1r*epsilon3
+0;-c1*epsilon1r^2*epsilon3 - c1*epsilon1r^2 + c1*epsilon1r*epsilon1*epsilon2 + c2*epsilon1r^2*epsilon3
+0;-c1*epsilon2^2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3^2
+0;-c1*epsilon1r^2*epsilon3 - c1*epsilon1r^2 + 2*c1*epsilon1r*epsilon1*epsilon2 - 2*c1*epsilon1r*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon2 + c1*epsilon1*epsilon2^2 + c2*epsilon1r^2*epsilon3 + 2*c2*epsilon1r*epsilon2*epsilon3
+0;c1*epsilon1r*epsilon1*epsilon2 - 2*c1*epsilon1r*epsilon1*epsilon3 - 2*c1*epsilon1r*epsilon1 + 2*c1*epsilon1^2*epsilon2 - c1*epsilon1^2*epsilon3 - c1*epsilon1^2 + 2*c2*epsilon1r*epsilon1*epsilon3 + c2*epsilon1^2*epsilon3
+0;-c1*epsilon1^2*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3^2
+0;-c1*epsilon1r^2*epsilon3 - c1*epsilon1r^2 + 2*c1*epsilon1r*epsilon1*epsilon2 - 2*c1*epsilon1r*epsilon1*epsilon3 - 2*c1*epsilon1r*epsilon1 + c1*epsilon1^2*epsilon2 + c2*epsilon1r^2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3
+0;-c1*epsilon1^2*epsilon2^2 + c2*epsilon1^2*epsilon2^2*epsilon3
+0;-c1*epsilon1r^2 + c2*epsilon1r^2*epsilon3
+0;-2*c1*epsilon1*epsilon2*epsilon3^2 - c1*epsilon2^2*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+0;-2*c1*epsilon1*epsilon2^2*epsilon3 - c1*epsilon2^2*epsilon3^2 + c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+0;-c1*epsilon1^2*epsilon3^2 - 2*c1*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3^2
+0;-c1*epsilon1^2*epsilon2^2 - 2*c1*epsilon1*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + c2*epsilon1*epsilon2^2*epsilon3^2
+0;-2*c1*epsilon1^2*epsilon2*epsilon3 - c1*epsilon1^2*epsilon3^2 + c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3^2
+0;-c1*epsilon1^2*epsilon2^2 - 2*c1*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + c2*epsilon1^2*epsilon2*epsilon3^2
+0;2*c1*epsilon1^2*epsilon2*epsilon3 - c1*epsilon1*epsilon2*epsilon3^2 - 6*c1*epsilon1*epsilon2*epsilon3 - c1*epsilon2^2*epsilon3^2 - 2*c1*epsilon2^2*epsilon3 - 2*c1*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3 + 3*c2*epsilon1*epsilon2^2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon2^2*epsilon3^2
+0;2*c1*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1*epsilon3^2 - 4*c1*epsilon1*epsilon3 + 2*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon3^2
+0;-4*c1*epsilon1*epsilon2 + 4*c2*epsilon1*epsilon2*epsilon3
+0;-2*c1*epsilon1r + 2*c2*epsilon1r*epsilon3
+0;-2*c1*epsilon1*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3^2
+0;-2*c1*epsilon1*epsilon2^2 + 2*c2*epsilon1*epsilon2^2*epsilon3
+0;-2*c1*epsilon1^2*epsilon2 + 2*c2*epsilon1^2*epsilon2*epsilon3
+0;2*c1*epsilon1r*epsilon1*epsilon3 - 3*c1*epsilon1r*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon3^2 - 4*c1*epsilon1r*epsilon3 + 4*c1*epsilon1*epsilon2*epsilon3 + c1*epsilon2^2*epsilon3 - 2*c1*epsilon2*epsilon3^2 - 4*c1*epsilon2*epsilon3 + c2*epsilon1r*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3 + c2*epsilon2^2*epsilon3 + 2*c2*epsilon2*epsilon3^2
+0;c1*epsilon1r*epsilon1*epsilon3^2 - 2*c1*epsilon1r*epsilon2*epsilon3^2 - 2*c1*epsilon1r*epsilon3^2 + c1*epsilon1*epsilon2*epsilon3^2 - 2*c1*epsilon2*epsilon3^2 + c2*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3^2 + c2*epsilon2^2*epsilon3^2
+0;c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon2*epsilon3^2 - 4*c1*epsilon1r*epsilon2*epsilon3 + 2*c1*epsilon1*epsilon2^2*epsilon3 - c1*epsilon2^2*epsilon3^2 - 2*c1*epsilon2^2*epsilon3 + c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3 + c2*epsilon2^2*epsilon3^2
+0;-c1*epsilon1r^2*epsilon3^2 - 2*c1*epsilon1r^2*epsilon3 + c1*epsilon1r*epsilon1*epsilon2*epsilon3 + c2*epsilon1r^2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3
+0;-c1*epsilon1r^2*epsilon3^2 - 2*c1*epsilon1r^2*epsilon3 + 2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon2*epsilon3^2 - 4*c1*epsilon1r*epsilon2*epsilon3 + c1*epsilon1*epsilon2^2*epsilon3 + c2*epsilon1r^2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3
+0;-c1*epsilon1r*epsilon1*epsilon3^2 - 2*c1*epsilon1r*epsilon3^2 + c1*epsilon1^2*epsilon3^2 - 2*c1*epsilon1*epsilon3^2 + c2*epsilon1r*epsilon2*epsilon3^2 + 3*c2*epsilon1*epsilon2*epsilon3^2
+0;c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon1*epsilon3^2 - 4*c1*epsilon1r*epsilon1*epsilon3 + 2*c1*epsilon1^2*epsilon2*epsilon3 - c1*epsilon1^2*epsilon3^2 - 2*c1*epsilon1^2*epsilon3 + c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1^2*epsilon3^2
+0;-c1*epsilon1r^2*epsilon3^2 - 2*c1*epsilon1r^2*epsilon3 + 2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon1*epsilon3^2 - 4*c1*epsilon1r*epsilon1*epsilon3 + c1*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1r^2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3
+0;-2*c1*epsilon1r^2*epsilon3 - c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon1*epsilon2 + c1*epsilon1^2*epsilon2^2 + c2*epsilon1r^2*epsilon3^2 + 3*c2*epsilon1r*epsilon1*epsilon2*epsilon3
+0;-2*c1*epsilon1r*epsilon2*epsilon3^2 - c1*epsilon2^2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+0;-c1*epsilon1r^2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3^2
+0;-c1*epsilon1r^2*epsilon3^2 + c1*epsilon1r*epsilon1*epsilon3^2 - 2*c1*epsilon1r*epsilon3^2 + c2*epsilon1r*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3^2
+0;-c1*epsilon1r^2*epsilon3^2 - 2*c1*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3^2
+0;-2*c1*epsilon1r*epsilon1*epsilon3^2 - c1*epsilon1^2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2
+0;-2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - c1*epsilon1^2*epsilon2^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3
+0;-c1*epsilon1r^2*epsilon3^2 - 2*c1*epsilon1r*epsilon1*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3^2
+0;-c1*epsilon1r^2*epsilon3^2 - 2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon2^2*epsilon3
+0;-2*c1*epsilon1r^2*epsilon3 + 2*c1*epsilon1r*epsilon1*epsilon3 + c1*epsilon1r*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon3^2 - 4*c1*epsilon1r*epsilon3 + c1*epsilon1*epsilon2*epsilon3 + c2*epsilon1r*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3
+0;-2*c1*epsilon1r*epsilon1*epsilon3 + c1*epsilon1r*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon3^2 - 4*c1*epsilon1r*epsilon3 + 2*c1*epsilon1^2*epsilon3 + 3*c1*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1*epsilon3^2 - 4*c1*epsilon1*epsilon3 + c2*epsilon1r*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon3^2 + 3*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon3^2
+0;-c1*epsilon1r*epsilon1*epsilon3 - 2*c1*epsilon1r*epsilon1 - 2*c1*epsilon1r*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon2 - 4*c1*epsilon1r*epsilon3 + 3*c1*epsilon1^2*epsilon2 + 3*c1*epsilon1*epsilon2^2 - 3*c1*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1*epsilon2 + 2*c2*epsilon1r*epsilon1*epsilon3 + 3*c2*epsilon1r*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon3^2 + 5*c2*epsilon1*epsilon2*epsilon3
+0;-2*c1*epsilon1r*epsilon1 + 2*c2*epsilon1r*epsilon1*epsilon3
+0;-2*c1*epsilon1r*epsilon2 + 2*c2*epsilon1r*epsilon2*epsilon3
+0;-c1*epsilon1r*epsilon1*epsilon3^2 - 4*c1*epsilon1r*epsilon1*epsilon3 - 2*c1*epsilon1r*epsilon2*epsilon3^2 - 4*c1*epsilon1r*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon3^2 + 3*c1*epsilon1^2*epsilon2*epsilon3 + 2*c1*epsilon1*epsilon2^2*epsilon3 - 2*c1*epsilon1*epsilon2*epsilon3^2 - 6*c1*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3^2 + 3*c2*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 + 3*c2*epsilon1*epsilon2^2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3^2
+0;-c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon1*epsilon2 - 4*c1*epsilon1r*epsilon2*epsilon3 + 2*c1*epsilon1^2*epsilon2^2 - c1*epsilon1*epsilon2^2*epsilon3 - 2*c1*epsilon1*epsilon2^2 + 3*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon2*epsilon3^2 + 3*c2*epsilon1*epsilon2^2*epsilon3
+0;-c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon1*epsilon2 - 4*c1*epsilon1r*epsilon1*epsilon3 + 2*c1*epsilon1^2*epsilon2^2 - c1*epsilon1^2*epsilon2*epsilon3 - 2*c1*epsilon1^2*epsilon2 + 3*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3^2 + 3*c2*epsilon1^2*epsilon2*epsilon3
+0;-2*c1*epsilon1^2*epsilon2*epsilon3 - 2*c1*epsilon1*epsilon2^2*epsilon3 - 2*c1*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+0;-2*c1*epsilon1r*epsilon1*epsilon2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3
+0;-2*c1*epsilon1r*epsilon1*epsilon3^2 - 2*c1*epsilon1r*epsilon2*epsilon3^2 - 2*c1*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+0;-2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon1*epsilon3^2 - 2*c1*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3^2
+0;-2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1r*epsilon2*epsilon3^2 - 2*c1*epsilon1*epsilon2^2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+1;2*c1*epsilon1*epsilon2 - 2*c1*epsilon2*epsilon3 - 2*c1*epsilon2 - 2*c1*epsilon3 + 2*c2*epsilon1*epsilon3 + 2*c2*epsilon2*epsilon3
+1;2*c1*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon2*epsilon3^2 - 4*c1*epsilon2*epsilon3 - 2*c1*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon3^2 + 2*c2*epsilon2*epsilon3^2
+1;2*c1*epsilon1*epsilon2^2 - 2*c1*epsilon2^2*epsilon3 - 2*c1*epsilon2^2 - 4*c1*epsilon2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon2^2*epsilon3
+1;2*c1*epsilon1*epsilon2 - 2*c1*epsilon1*epsilon3 - 2*c1*epsilon1 - 2*c1*epsilon3 + 2*c2*epsilon1*epsilon3 + 2*c2*epsilon2*epsilon3
+1;2*c1*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1*epsilon3^2 - 4*c1*epsilon1*epsilon3 - 2*c1*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon3^2 + 2*c2*epsilon2*epsilon3^2
+1;2*c1*epsilon1^2*epsilon2 - 2*c1*epsilon1^2*epsilon3 - 2*c1*epsilon1^2 - 4*c1*epsilon1*epsilon3 + 2*c2*epsilon1^2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3
+1;-2*c1*epsilon1 - 2*c1*epsilon2 + 2*c2*epsilon1*epsilon3 + 2*c2*epsilon2*epsilon3
+1;-4*c1*epsilon1*epsilon2 - 2*c1*epsilon2^2 + 4*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon2^2*epsilon3
+1;-2*c1*epsilon1^2 - 4*c1*epsilon1*epsilon2 + 2*c2*epsilon1^2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3
+1;2*c1*epsilon1^2*epsilon2 + 2*c1*epsilon1*epsilon2^2 - 4*c1*epsilon1*epsilon2*epsilon3 - 6*c1*epsilon1*epsilon2 - 6*c1*epsilon1*epsilon3 - 6*c1*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon3 + 10*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon3^2 + 2*c2*epsilon2^2*epsilon3 + 2*c2*epsilon2*epsilon3^2
+1;2*c1*epsilon1*epsilon2^2*epsilon3 - 2*c1*epsilon2^2*epsilon3^2 - 4*c1*epsilon2^2*epsilon3 - 4*c1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon2^2*epsilon3^2
+1;2*c1*epsilon1^2*epsilon2*epsilon3 - 2*c1*epsilon1^2*epsilon3^2 - 4*c1*epsilon1^2*epsilon3 - 4*c1*epsilon1*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon3^2 + 4*c2*epsilon1*epsilon2*epsilon3^2
+1;-4*c1*epsilon1^2*epsilon2 - 4*c1*epsilon1*epsilon2^2 + 4*c2*epsilon1^2*epsilon2*epsilon3 + 4*c2*epsilon1*epsilon2^2*epsilon3
+1;2*c1*epsilon1^2*epsilon2*epsilon3 + 2*c1*epsilon1*epsilon2^2*epsilon3 - 4*c1*epsilon1*epsilon2*epsilon3^2 - 10*c1*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1*epsilon3^2 - 4*c1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3 + 10*c2*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon2^2*epsilon3^2
+1;2*c1*epsilon1^2*epsilon2^2 - 2*c1*epsilon1*epsilon2^2*epsilon3 - 4*c1*epsilon1*epsilon2^2 - 10*c1*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon2^2*epsilon3 + 4*c2*epsilon1^2*epsilon2*epsilon3 + 8*c2*epsilon1*epsilon2^2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon2^2*epsilon3^2
+1;2*c1*epsilon1^2*epsilon2^2 - 2*c1*epsilon1^2*epsilon2*epsilon3 - 4*c1*epsilon1^2*epsilon2 - 4*c1*epsilon1^2*epsilon3 - 10*c1*epsilon1*epsilon2*epsilon3 + 8*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon3^2 + 4*c2*epsilon1*epsilon2^2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3^2
+1;-2*c1*epsilon1r*epsilon3 - 2*c1*epsilon1r + 2*c1*epsilon1*epsilon2 - 2*c1*epsilon3 + 2*c2*epsilon1*epsilon3 + 2*c2*epsilon2*epsilon3
+1;-2*c1*epsilon1r*epsilon3^2 - 4*c1*epsilon1r*epsilon3 + 2*c1*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon3^2 + 2*c2*epsilon2*epsilon3^2
+1;-2*c1*epsilon1r^2*epsilon3 - 2*c1*epsilon1r^2 + 2*c1*epsilon1r*epsilon1*epsilon2 - 4*c1*epsilon1r*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3 + 2*c2*epsilon1r*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2*epsilon3
+1;-2*c1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3^2
+1;-2*c1*epsilon2^2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3
+1;-2*c1*epsilon2^2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-2*c1*epsilon2^2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-2*c1*epsilon1*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3^2
+1;-2*c1*epsilon1^2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3
+1;-2*c1*epsilon1^2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2
+1;-2*c1*epsilon1^2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2
+1;-2*c1*epsilon1*epsilon2^2 + 2*c2*epsilon1*epsilon2^2*epsilon3
+1;-2*c1*epsilon1^2*epsilon2 + 2*c2*epsilon1^2*epsilon2*epsilon3
+1;-2*c1*epsilon1^2*epsilon2^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3
+1;-2*c1*epsilon1^2*epsilon2^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3
+1;-4*c1*epsilon1*epsilon2^2*epsilon3 - 4*c1*epsilon1*epsilon2*epsilon3^2 - 2*c1*epsilon2^2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + 6*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-4*c1*epsilon1^2*epsilon2*epsilon3 - 2*c1*epsilon1^2*epsilon3^2 - 4*c1*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + 6*c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-2*c1*epsilon1^2*epsilon2^2 - 4*c1*epsilon1^2*epsilon2*epsilon3 - 4*c1*epsilon1*epsilon2^2*epsilon3 + 6*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+1;2*c1*epsilon1r*epsilon1*epsilon2 - 4*c1*epsilon1r*epsilon2*epsilon3 - 4*c1*epsilon1r*epsilon2 - 4*c1*epsilon1r*epsilon3 + 2*c1*epsilon1*epsilon2^2 - 4*c1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3 + 2*c2*epsilon1r*epsilon2*epsilon3 + 6*c2*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon2^2*epsilon3
+1;2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1r*epsilon2*epsilon3^2 - 8*c1*epsilon1r*epsilon2*epsilon3 - 4*c1*epsilon1r*epsilon3^2 + 2*c1*epsilon1*epsilon2^2*epsilon3 - 4*c1*epsilon2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3^2 + 2*c2*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3 + 6*c2*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon2^2*epsilon3^2
+1;-2*c1*epsilon1r^2*epsilon3^2 - 4*c1*epsilon1r^2*epsilon3 + 2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1r*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3^2 + 2*c2*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3^2
+1;2*c1*epsilon1r*epsilon1*epsilon2 - 4*c1*epsilon1r*epsilon1*epsilon3 - 4*c1*epsilon1r*epsilon1 - 4*c1*epsilon1r*epsilon3 + 2*c1*epsilon1^2*epsilon2 - 4*c1*epsilon1*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3 + 2*c2*epsilon1r*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon3 + 6*c2*epsilon1*epsilon2*epsilon3
+1;2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1r*epsilon1*epsilon3^2 - 8*c1*epsilon1r*epsilon1*epsilon3 - 4*c1*epsilon1r*epsilon3^2 + 2*c1*epsilon1^2*epsilon2*epsilon3 - 4*c1*epsilon1*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3^2 + 2*c2*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon3^2 + 6*c2*epsilon1*epsilon2*epsilon3^2
+1;-4*c1*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-4*c1*epsilon1*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-4*c1*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3^2
+1;-2*c1*epsilon1r*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3^2
+1;-4*c1*epsilon1r*epsilon2*epsilon3 - 2*c1*epsilon2^2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 4*c2*epsilon1*epsilon2^2*epsilon3
+1;-4*c1*epsilon1r*epsilon2*epsilon3^2 - 2*c1*epsilon2^2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 4*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-2*c1*epsilon1r^2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3
+1;-2*c1*epsilon1r^2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2
+1;-2*c1*epsilon1r^2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2
+1;-2*c1*epsilon1r^2*epsilon3 - 4*c1*epsilon1r*epsilon2*epsilon3 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3
+1;-2*c1*epsilon1r^2*epsilon3^2 - 4*c1*epsilon1r*epsilon2*epsilon3^2 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-4*c1*epsilon1r*epsilon1*epsilon3 - 2*c1*epsilon1^2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 4*c2*epsilon1^2*epsilon2*epsilon3
+1;-4*c1*epsilon1r*epsilon1*epsilon3^2 - 2*c1*epsilon1^2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 4*c2*epsilon1^2*epsilon2*epsilon3^2
+1;-2*c1*epsilon1r*epsilon1 - 2*c1*epsilon1r*epsilon2 - 2*c1*epsilon1*epsilon2 + 2*c2*epsilon1r*epsilon1*epsilon3 + 2*c2*epsilon1r*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2*epsilon3
+1;-2*c1*epsilon1r*epsilon1*epsilon2 - 2*c1*epsilon1*epsilon2^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3
+1;-2*c1*epsilon1r*epsilon1*epsilon2 - 2*c1*epsilon1^2*epsilon2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3
+1;-2*c1*epsilon1^2*epsilon2^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3
+1;-2*c1*epsilon1r^2*epsilon3 - 4*c1*epsilon1r*epsilon1*epsilon3 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3
+1;-2*c1*epsilon1r^2*epsilon3^2 - 4*c1*epsilon1r*epsilon1*epsilon3^2 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2
+1;-2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1r*epsilon1*epsilon2 - 6*c1*epsilon1r*epsilon1*epsilon3 - 6*c1*epsilon1r*epsilon2*epsilon3 + 2*c1*epsilon1^2*epsilon2^2 - 8*c1*epsilon1*epsilon2*epsilon3 + 6*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon3^2 + 2*c2*epsilon1r*epsilon2*epsilon3^2 + 6*c2*epsilon1^2*epsilon2*epsilon3 + 6*c2*epsilon1*epsilon2^2*epsilon3 + 2*c2*epsilon1*epsilon2*epsilon3^2
+1;-4*c1*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-4*c1*epsilon1r*epsilon1*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2
+1;-4*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1r*epsilon1*epsilon3^2 - 4*c1*epsilon1r*epsilon2*epsilon3^2 - 4*c1*epsilon1*epsilon2*epsilon3^2 + 6*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + 4*c2*epsilon1^2*epsilon2*epsilon3^2 + 4*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-4*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1*epsilon2^2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 4*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3^2
+1;-4*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 4*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3^2
+1;-2*c1*epsilon1r*epsilon1*epsilon2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3
+1;-4*c1*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3
+2;c1*epsilon1*epsilon2^2 - c1*epsilon1*epsilon3 - c1*epsilon2^2*epsilon3 - c1*epsilon2^2 - 4*c1*epsilon2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3 + c2*epsilon1*epsilon3^2 + c2*epsilon1*epsilon3 + c2*epsilon2^2*epsilon3 - c2*epsilon3^2
+2;c1*epsilon1^2*epsilon2 - c1*epsilon1^2*epsilon3 - c1*epsilon1^2 - 4*c1*epsilon1*epsilon3 - c1*epsilon2*epsilon3 + c2*epsilon1^2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3 + c2*epsilon2*epsilon3^2 + c2*epsilon2*epsilon3 - c2*epsilon3^2
+2;-c1*epsilon1^2 - 4*c1*epsilon1*epsilon2 - c1*epsilon2^2 + c2*epsilon1^2*epsilon3 + 4*c2*epsilon1*epsilon2*epsilon3 + c2*epsilon2^2*epsilon3
+2;c1*epsilon1*epsilon2^2*epsilon3 - c1*epsilon1*epsilon2*epsilon3^2 - c1*epsilon1*epsilon2*epsilon3 - c1*epsilon1*epsilon3^2 - c1*epsilon2^2*epsilon3 - 3*c1*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3 + 5*c2*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3 + c2*epsilon1*epsilon3^2 - c2*epsilon2^2*epsilon3 - c2*epsilon2*epsilon3^2
+2;c1*epsilon1^2*epsilon2*epsilon3 - c1*epsilon1^2*epsilon3^2 - 2*c1*epsilon1^2*epsilon3 - 4*c1*epsilon1*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1^2*epsilon3^2 + 4*c2*epsilon1*epsilon2*epsilon3^2
+2;c1*epsilon1^2*epsilon2^2 - c1*epsilon1^2*epsilon2*epsilon3 - c1*epsilon1^2*epsilon2 - 2*c1*epsilon1^2*epsilon3 - c1*epsilon1*epsilon2^2 - 13*c1*epsilon1*epsilon2*epsilon3 - c1*epsilon2^2*epsilon3 + 6*c2*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1^2*epsilon3^2 + c2*epsilon1^2*epsilon3 + 5*c2*epsilon1*epsilon2^2*epsilon3 + 5*c2*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3 - c2*epsilon1*epsilon3^2 + c2*epsilon2^2*epsilon3^2 - c2*epsilon2*epsilon3^2
+2;-c1*epsilon1^2*epsilon2*epsilon3 - c1*epsilon1^2*epsilon3^2 - 7*c1*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon2^2*epsilon3 + 4*c2*epsilon1^2*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon3^2 + 4*c2*epsilon1*epsilon2^2*epsilon3^2 - c2*epsilon1*epsilon2^2*epsilon3
+2;c1*epsilon1r*epsilon1*epsilon2 - c1*epsilon1r*epsilon1*epsilon3 - c1*epsilon1r*epsilon1 - c1*epsilon1r*epsilon2*epsilon3 - c1*epsilon1r*epsilon2 - 3*c1*epsilon1r*epsilon3 + c1*epsilon1*epsilon2*epsilon3 + c1*epsilon1*epsilon2 - c1*epsilon1*epsilon3 - c1*epsilon2*epsilon3 + c2*epsilon1r*epsilon1*epsilon3 + c2*epsilon1r*epsilon2*epsilon3 - c2*epsilon1r*epsilon3^2 - c2*epsilon1r*epsilon3 + 3*c2*epsilon1*epsilon2*epsilon3 + c2*epsilon1*epsilon3^2 + c2*epsilon1*epsilon3 + c2*epsilon2*epsilon3^2 + c2*epsilon2*epsilon3 - c2*epsilon3^2
+2;-c1*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3^2 - c2*epsilon2^2*epsilon3^2
+2;-c1*epsilon1*epsilon2*epsilon3^2 - 3*c1*epsilon2^2*epsilon3^2 + 4*c2*epsilon1*epsilon2^2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3^2 - c2*epsilon2^2*epsilon3^2
+2;-c1*epsilon1*epsilon2^2*epsilon3 + c2*epsilon1*epsilon2^2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3 - c2*epsilon2^2*epsilon3^2
+2;-c1*epsilon1^2*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3^2
+2;-c1*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1^2*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3 - c2*epsilon1^2*epsilon3^2
+2;-c1*epsilon1^2*epsilon2^2 + c2*epsilon1^2*epsilon2^2*epsilon3
+2;-c1*epsilon1^2*epsilon2^2 + c2*epsilon1^2*epsilon2^2*epsilon3
+2;-2*c1*epsilon1*epsilon2*epsilon3 - 4*c1*epsilon2^2*epsilon3 + 4*c2*epsilon1*epsilon2^2*epsilon3 + 2*c2*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon2*epsilon3^2
+2;-4*c1*epsilon1^2*epsilon3 - 2*c1*epsilon1*epsilon2*epsilon3 + 4*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon1*epsilon3^2
+2;-4*c1*epsilon1^2*epsilon3^2 + 4*c2*epsilon1^2*epsilon2*epsilon3^2
+2;-2*c1*epsilon1^2*epsilon2 - 4*c1*epsilon1*epsilon2^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 + 4*c2*epsilon1*epsilon2^2*epsilon3
+2;-4*c1*epsilon1^2*epsilon2 - 2*c1*epsilon1*epsilon2^2 + 4*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3
+2;-4*c1*epsilon1^2*epsilon2^2 + 4*c2*epsilon1^2*epsilon2^2*epsilon3
+2;c1*epsilon1r*epsilon1*epsilon2*epsilon3 - c1*epsilon1r*epsilon1*epsilon3^2 - 2*c1*epsilon1r*epsilon1*epsilon3 - c1*epsilon1r*epsilon2*epsilon3 - 3*c1*epsilon1r*epsilon3^2 + c1*epsilon1*epsilon2*epsilon3 - c1*epsilon1*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3 + c2*epsilon1r*epsilon1*epsilon3^2 - c2*epsilon1r*epsilon2*epsilon3 - c2*epsilon1r*epsilon3^2 + 4*c2*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3 + c2*epsilon1*epsilon3^2
+2;-c1*epsilon1r*epsilon1*epsilon3 - 7*c1*epsilon1r*epsilon2*epsilon3 - 3*c1*epsilon1*epsilon2*epsilon3 - c1*epsilon2^2*epsilon3 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + c2*epsilon1r*epsilon1*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon3 - c2*epsilon1r*epsilon2*epsilon3^2 - c2*epsilon1r*epsilon2*epsilon3 - 2*c2*epsilon1r*epsilon3^2 + 4*c2*epsilon1*epsilon2^2*epsilon3 + 3*c2*epsilon1*epsilon2*epsilon3^2 + 3*c2*epsilon1*epsilon2*epsilon3 + c2*epsilon2^2*epsilon3^2 + c2*epsilon2^2*epsilon3 - 2*c2*epsilon2*epsilon3^2
+2;-7*c1*epsilon1r*epsilon1*epsilon3 - c1*epsilon1r*epsilon2*epsilon3 - c1*epsilon1^2*epsilon3 - 3*c1*epsilon1*epsilon2*epsilon3 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3 - c2*epsilon1r*epsilon1*epsilon3^2 - c2*epsilon1r*epsilon1*epsilon3 + c2*epsilon1r*epsilon2*epsilon3^2 + c2*epsilon1r*epsilon2*epsilon3 - 2*c2*epsilon1r*epsilon3^2 + 4*c2*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1^2*epsilon3^2 + c2*epsilon1^2*epsilon3 + 3*c2*epsilon1*epsilon2*epsilon3^2 + 3*c2*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon1*epsilon3^2
+2;-7*c1*epsilon1r*epsilon1*epsilon3^2 - c1*epsilon1^2*epsilon3^2 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 - c2*epsilon1r*epsilon1*epsilon3^2 + 4*c2*epsilon1^2*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon3^2
+2;-8*c1*epsilon1^2*epsilon2*epsilon3 - c1*epsilon1*epsilon2^2*epsilon3 + 4*c2*epsilon1^2*epsilon2^2*epsilon3 + 4*c2*epsilon1^2*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1*epsilon2^2*epsilon3^2 - c2*epsilon1*epsilon2*epsilon3^2
+2;-2*c1*epsilon1^2*epsilon2*epsilon3 - 7*c1*epsilon1*epsilon2^2*epsilon3 + 4*c2*epsilon1^2*epsilon2^2*epsilon3 + c2*epsilon1^2*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3 + 4*c2*epsilon1*epsilon2^2*epsilon3^2 - c2*epsilon1*epsilon2*epsilon3^2
+2;-c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1*epsilon2^2*epsilon3 + c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3 - c2*epsilon2^2*epsilon3^2
+2;-3*c1*epsilon1r^2*epsilon3 - c1*epsilon1r*epsilon1*epsilon3 - c1*epsilon1r*epsilon2*epsilon3 - c1*epsilon1*epsilon2*epsilon3 - c2*epsilon1r^2*epsilon3^2 - c2*epsilon1r^2*epsilon3 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + c2*epsilon1r*epsilon1*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon3 + c2*epsilon1r*epsilon2*epsilon3^2 + c2*epsilon1r*epsilon2*epsilon3 - 2*c2*epsilon1r*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3
+2;-3*c1*epsilon1r^2*epsilon3^2 - c1*epsilon1r*epsilon1*epsilon3^2 - c2*epsilon1r^2*epsilon3^2 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon3^2
+2;-c1*epsilon1r*epsilon1*epsilon2*epsilon3 - c2*epsilon1r^2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3
+2;-2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - c1*epsilon1*epsilon2^2*epsilon3 - c2*epsilon1r^2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon1r*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3
+2;-c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon1r*epsilon1*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 - c2*epsilon1^2*epsilon3^2
+2;-2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - c1*epsilon1^2*epsilon2*epsilon3 - c2*epsilon1r^2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon1r*epsilon1*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3
+2;-c1*epsilon1^2*epsilon2^2 + c2*epsilon1^2*epsilon2^2*epsilon3
+2;-2*c1*epsilon1r*epsilon1*epsilon2 - 2*c1*epsilon1^2*epsilon2 - 2*c1*epsilon1*epsilon2^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3
+2;-2*c1*epsilon1^2*epsilon2^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3
+2;-2*c1*epsilon1^2*epsilon2^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3
+2;-c1*epsilon1r*epsilon1*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 - c2*epsilon1r*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3^2
+2;-c1*epsilon1r*epsilon1*epsilon3^2 - 6*c1*epsilon1r*epsilon2*epsilon3^2 - c1*epsilon1*epsilon2*epsilon3^2 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon3^2 - 2*c2*epsilon1r*epsilon2*epsilon3^2 + 4*c2*epsilon1*epsilon2^2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3^2
+2;-7*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 3*c1*epsilon1^2*epsilon2*epsilon3 - 2*c1*epsilon1*epsilon2^2*epsilon3 + 4*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3 - c2*epsilon1r*epsilon1*epsilon3^2 - c2*epsilon1r*epsilon2*epsilon3^2 + 4*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3 - 2*c2*epsilon1*epsilon2*epsilon3^2
+3;-2*c1*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon2^2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3 + 2*c2*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon2*epsilon3^2
+3;-2*c1*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3^2 - 2*c2*epsilon2^2*epsilon3^2
+3;-2*c1*epsilon1*epsilon2^2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3 - 2*c2*epsilon2^2*epsilon3^2
+3;-2*c1*epsilon1^2*epsilon3 - 2*c1*epsilon1*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon1*epsilon3^2
+3;-2*c1*epsilon1^2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2
+3;-2*c1*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 - 2*c2*epsilon1^2*epsilon3^2
+3;-2*c1*epsilon1^2*epsilon2 - 2*c1*epsilon1*epsilon2^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3
+3;-2*c1*epsilon1^2*epsilon2^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3
+3;-2*c1*epsilon1^2*epsilon2^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3
+3;-4*c1*epsilon1^2*epsilon2*epsilon3 - 2*c1*epsilon1*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2^2*epsilon3 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1*epsilon2^2*epsilon3^2 - 2*c2*epsilon1*epsilon2*epsilon3^2
+3;-2*c1*epsilon1r*epsilon1*epsilon3 - 2*c1*epsilon1r*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon1r*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3
+3;-2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c2*epsilon1r^2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3
+3;-2*c1*epsilon1^2*epsilon2^2 + 2*c2*epsilon1^2*epsilon2^2*epsilon3
+3;-2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1*epsilon2^2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 - 4*c2*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3^2 + 2*c2*epsilon1*epsilon2^2*epsilon3
+3;-2*c1*epsilon1r*epsilon1*epsilon2*epsilon3 - 2*c1*epsilon1^2*epsilon2*epsilon3 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3 - 4*c2*epsilon1r*epsilon1*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3^2 + 2*c2*epsilon1^2*epsilon2*epsilon3
+3;-2*c1*epsilon1r*epsilon1*epsilon3^2 + 2*c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 - 2*c2*epsilon1r*epsilon2*epsilon3^2 + 2*c2*epsilon1*epsilon2*epsilon3^2
+4;-c1*epsilon1*epsilon2^2*epsilon3 + c2*epsilon1*epsilon2^2*epsilon3^2 + c2*epsilon1*epsilon2^2*epsilon3 - c2*epsilon2^2*epsilon3^2
+4;-c1*epsilon1^2*epsilon2*epsilon3 + c2*epsilon1^2*epsilon2*epsilon3^2 + c2*epsilon1^2*epsilon2*epsilon3 - c2*epsilon1^2*epsilon3^2
+4;-c1*epsilon1^2*epsilon2^2 + c2*epsilon1^2*epsilon2^2*epsilon3
+4;-c1*epsilon1r*epsilon1*epsilon2*epsilon3 + c2*epsilon1r*epsilon1*epsilon2*epsilon3^2 + c2*epsilon1r*epsilon1*epsilon2*epsilon3 - c2*epsilon1r*epsilon1*epsilon3^2 - c2*epsilon1r*epsilon2*epsilon3^2 + c2*epsilon1*epsilon2*epsilon3^2

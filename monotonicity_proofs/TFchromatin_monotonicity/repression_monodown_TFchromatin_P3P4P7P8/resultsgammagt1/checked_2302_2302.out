@@ -1,0 +1,5 @@
+#aborting after 600
+2302;-4*alpha*beta^3*gamma^2*omega^2 - 22*alpha*beta^2*gamma^2*omega^2 + 15*alpha*beta^2*gamma^2*omega + 4*alpha*beta^2*gamma*omega - 7*alpha*beta*gamma^2*omega^2 + 7*alpha*beta*gamma*omega^2 + 7*alpha*beta*gamma*omega + 4*beta^3*gamma^2*omega + 3*beta^2*gamma^2*omega - 7*beta*gamma*omega^2;                             -7 omega + alpha (7 + 4 beta + 7 omega)                                                beta (3 + 4 beta)
+gamma <= ------------------------------------------------------------------------------- || alpha >= -----------------------------------------------
+                               2                                                                                     2
+         7 alpha omega + 4 beta  (-1 + alpha omega) + beta (-3 + alpha (-15 + 22 omega))             7 omega + 4 beta  omega + beta (-15 + 22 omega)
