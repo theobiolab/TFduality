@@ -1,0 +1,107 @@
+Take the base...double and do:
+At the beginning, replace everything before pre_laplacianpars by the following between ---
+---
+#include <pybind11/pybind11.h>
+#include <pybind11/numpy.h>
+#include <pybind11/eigen.h>
+#include <Eigen/Core>
+#include <Eigen/Dense>
+#include <Eigen/Sparse>
+#include <Eigen/SparseCore>
+#include <Eigen/Eigenvalues>
+#include <vector>
+#include <cmath>
+#include <stdlib.h>
+#include <iostream>
+#include <boost/multiprecision/mpfr.hpp>
+
+using namespace std;
+using namespace Eigen;
+namespace py=pybind11;
+
+typedef boost::multiprecision::number<boost::multiprecision::mpfr_float_backend<50>> InternalType;
+typedef boost::multiprecision::number<boost::multiprecision::mpfr_float_backend<50>> T; 
+typedef Eigen::SparseMatrix<InternalType> SM;
+
+void insert_L_Lx_atval(SM& L, const std::vector<Eigen::Triplet<InternalType>>& Lx, double xval){
+    Eigen::Triplet<InternalType> trd;
+    for (int j=0;j<Lx.size();j++){
+        trd=Lx[j];
+        L.insert(trd.row(),trd.col())=trd.value()*xval;
+    }
+}
+
+template <typename T>
+Matrix<T, Dynamic, 1> getOneDimNullspaceFromSVD(const Ref<const Matrix<T, Dynamic, Dynamic> >& A)
+{
+    // Perform a singular value decomposition of A, only computing V in full
+    Eigen::BDCSVD<Matrix<T, Dynamic, Dynamic> > svd(A, Eigen::ComputeFullV);
+
+    // Return the column of V corresponding to the least singular value of A
+    // (always given last in the decomposition) 
+    Matrix<T, Dynamic, 1> singular = svd.singularValues(); 
+    Matrix<T, Dynamic, Dynamic> V = svd.matrixV();
+    return V.col(singular.rows() - 1); 
+}
+
+---
+
+Eigen::Triplet<T> trd;
+
+
+delete interfaceps_x
+
+in interfacess:
+have only 3 arguments: parsar, varvals, double tolerance
+remove tolerance definition inside
+
+int i;
+double ssval=0.0;
+
+
+after defining CoeffsC: delete everything and put instead:
+---
+Eigen::Matrix< InternalType, Eigen::Dynamic, Eigen::Dynamic > Ld=Eigen::Matrix< InternalType, Eigen::Dynamic, Eigen::Dynamic >(L);
+    Matrix<InternalType, Dynamic, 1> steady_state;
+    try
+    {
+    steady_state = getOneDimNullspaceFromSVD<InternalType>(Ld);
+    //now doublecheck quality of nullspace
+        Eigen::Matrix< InternalType, Eigen::Dynamic, Eigen::Dynamic > out(n,1);
+        out=Ld*steady_state;
+        double tolerance=1e-10;
+        i=0;
+        bool goodnullspace=true;
+
+        for (i=0;i<n;i++){
+            if (abs(out(i,0))>tolerance){
+                cout << "inaccurate nullspace to tolerance" << tolerance << "\n";
+                cout << out;
+                goodnullspace=false;
+                break;
+            }
+        }
+        cout << "Goodnullspace? " << goodnullspace << "\n";
+    }
+    catch (const std::runtime_error& e)
+    {
+        throw;
+    }
+    InternalType norm = steady_state.sum();
+    
+    for (i=0; i<steady_state.size();i++){
+        steady_state[i]=steady_state[i] / norm;
+    }
+    for (i=0;i<indicesC.size();i++){
+        ssval+=(steady_state[indicesC[i]]*coeffsC[i]).template convert_to<double>();
+    }
+
+    return  ssval;
+    }
+---
+delete interfacerhos
+change name in PYBIND11_MODULE
+remove functions not needed
+instead have: 
+ m.def("interfacess", &interfacess, "A function which returns ss.",
+            py::arg("parsar"), py::arg("varvals"),py::arg("tolerance")=1e-10);
