@@ -1,5 +1,7 @@
 Repository for the paper "Emergence of activation or repression in transcriptional control under a fixed molecular context." Once the paper is published in its final form, the reference will be updated.
 
+Note that the Figure numbering of the notebook titles may not coincide with the figure numbering in the publications. 
+
 Dependencies:
 - Eigen (tested with 3.3.7 or 3.40).
 - Boost (tested with with version 1.76.0, 1.81.0).
