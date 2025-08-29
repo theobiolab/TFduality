@@ -1,0 +1,2 @@
+#aborting after 600
+2614;-alpha*beta^3*gamma^2*omega^4 - 2*alpha*beta^2*gamma^2*omega^4 + 2*alpha*beta^2*gamma*omega^3 - alpha*beta*gamma^2*omega^4 + 2*alpha*beta*gamma*omega^3 + beta^3*gamma^2*omega^3 + beta^2*gamma^2*omega^3 - beta^2*gamma*omega^3 - beta*gamma*omega^3;alpha + alpha beta >= beta || alpha (1 + beta) omega >= beta || 2 alpha + beta gamma <= 1 + alpha (1 + beta) gamma omega

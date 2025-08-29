@@ -1,0 +1,2 @@
+#aborting after 600
+2632;-3*alpha*beta^2*gamma^2*omega^4 - 2*alpha*beta*gamma^2*omega^4 + 5*alpha*beta*gamma*omega^3 + 3*beta^2*gamma^2*omega^3 - beta*gamma^2*omega^4 - 2*beta*gamma*omega^3;1 + 2 alpha + 3 alpha beta >= 3 beta || omega + alpha (2 + 3 beta) omega >= 3 beta || 3 beta <= 1 || 5 alpha + 3 beta gamma <= 2 + gamma (omega + alpha (2 + 3 beta) omega)

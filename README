@@ -1,0 +1,19 @@
+Repository with the code to reproduce the figures in the following paper:
+
+Emergence of activation or repression in transcriptional control under a fixed molecular context. 
+Martinez-Corral R, Friedrich D, Frömel R, Velten L, Gunawardena J, DePace A H. 
+Proceedings of the National Academy of Sciences of the United States of America. 2025 
+
+Dependencies:
+- Eigen (tested with 3.3.7 or 3.40).
+- Boost (tested with with version 1.76.0, 1.81.0).
+- GeneRegulatoryFunctions repository: https://github.com/rosamc/GeneRegulatoryFunctions.git
+(doublechecked at the end with commit bdc925406b59f266ae0918932403834289183db9)
+- https://github.com/kmnam/polynomials.git (commit af5a8318a6d637680033858a9b902c6d02eff613)
+- Auxiliary functions in https://github.com/rosamc/scriptsdu.git (7a65b8897c15eb65ffe2239dcde61b4250bdb481)
+- Code to sample from polytopes: https://github.com/kmnam/convex-polytopes.git (e676252cd2e3c6867a5ab2d1d941e75684f395bb)
+- Auxiliary functions in https://github.com/rosamc/scriptssyn.git (7a731a2c81eb2b7be6a1ed8366e7c0a7d42389d6)
+- Auxiliary functions in https://github.com/theobiolab/MPRAfitting.git (2365a458e19853ec652b74a980bc4578ae2fa497)
+
+
+
